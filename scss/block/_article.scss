@@ -1,0 +1,51 @@
+.card{
+    margin-top: 168px;
+    border-radius: 8px;
+    height: 560px;
+    .container{
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 1110px;
+        background-color: $color;
+    }
+    &__side{
+        display: flex;
+    }
+    &__figure img{
+        width: 410.23px;
+        height: 493px;
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        padding: 133px 95px 124px 140px;
+    }
+    &__title{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+    &__copy{
+        margin-top: 24px;
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        opacity: 0.75;
+    }
+    button{
+        margin-top: 40px;
+        cursor: pointer;
+        border: none;
+        padding: 15px 30px;
+        background-color: #000;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+}

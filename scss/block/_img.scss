@@ -1,0 +1,16 @@
+.img{
+    margin-top: 50px;
+    &__wrapper{
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: row;
+    }
+    &__box{
+        margin-left: 30px;
+        background-color: #F1F1F1;
+        padding: 101px 200px 101px 95px;
+    }
+}

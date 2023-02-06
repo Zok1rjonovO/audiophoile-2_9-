@@ -1,0 +1,24 @@
+.intro{
+    margin-top: 50px;
+    &__text{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+        color: #000000;
+        padding: 101px 690px 90px 95px;
+    }
+    &__btn{
+        margin-top: 40px;
+        cursor: pointer;
+        border: 1px solid #000000;
+        padding: 15px 30px;
+        background-color: transparent;
+        font-family: "Manrope";
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        color: #000;
+    }
+}

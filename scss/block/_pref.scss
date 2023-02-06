@@ -1,0 +1,35 @@
+.pref{
+    margin-top: 200px;
+    &__list{
+        display: flex;
+    }
+    &__box{
+        margin-top: 200px;
+    }
+    &__box h1{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__span{
+        color: $color;
+    }
+    &__box p{
+        width: 445px;
+        font-family: 'Manrope';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__img{
+
+        margin-left: 125px;
+    }
+}

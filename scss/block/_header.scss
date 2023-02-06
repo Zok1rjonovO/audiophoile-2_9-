@@ -1,0 +1,23 @@
+.header{
+    background-color: $box-bg;
+    &__wrapper{
+        margin: 0 auto;
+        padding: 35px 0;
+        display: flex;
+        max-width: 1440px;
+        color: $hv-color2;
+        font-family: 'Manrope', sans-serif;
+        img{
+            margin-left: 243px;
+        }
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        margin-left: 197px;
+        gap: 34px;
+        a{
+            color: $hv-color2;
+        }
+    }
+}

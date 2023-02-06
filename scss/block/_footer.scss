@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 200px;
+    background-color: $box-bg;
+    &__wrapper{
+        margin: 0 auto;
+        padding: 35px 0;
+        display: flex;
+        max-width: 1440px;
+        color: $hv-color2;
+        font-family: 'Manrope', sans-serif;
+    }
+    &__iteams p
+    {
+        width: 540px;
+        margin-top: 40px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    &__text{
+        display: flex;
+        position: relative;
+    }
+    &__list{
+        display: flex;
+        gap: 34px;
+        margin-left: 140px;
+        a{
+            color: #FFFFFF;
+        }
+    }
+    &__svg{
+        position: absolute;
+        top: 205px;
+        left: 1000px;
+        display: flex;
+        gap: 20px;
+        width: 24px;
+        height: 24px;
+    }
+}

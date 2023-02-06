@@ -1,0 +1,62 @@
+.hero{
+
+    &__wrapper{
+        background-color: $box-bg;
+    }
+    &__box{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        position: relative;
+        width: 400px;
+        padding: 225px 0;
+        color: $hv-color2;
+        h6{
+            font-family: 'Manrope';
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 10px;
+            color: $hv-color2;
+            opacity: 0.5;
+        }
+        h1{
+            font-family: 'Manrope';
+            width: 396px;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 58px;
+            letter-spacing: 2px;
+            color: $hv-color2;
+        }
+        p{
+            width: 349px;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: $hv-color2;
+            opacity: 0.75;
+        }
+    }
+    &__btn{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        padding: 15px 30px;
+        background-color: $color;
+        border: none;
+        color: $hv-color2;
+        cursor: pointer;
+        width: 160px;
+    }
+    &__img{
+        position: absolute;
+        top: 0;
+        left: 500px;
+        img{
+            width: 700px;
+            height: 708px;
+        }
+    }
+}
