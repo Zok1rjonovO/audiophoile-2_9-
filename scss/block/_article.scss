@@ -11,7 +11,7 @@
     &__side{
         display: flex;
     }
-    &__figure img{
+    &__figure{
         width: 410.23px;
         height: 493px;
     }
@@ -47,5 +47,19 @@
         font-size: 13px;
         line-height: 18px;
         color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .card{
+        &__figure{
+            width: 198px;
+            height: 237px;         
+        }
+        &__body{
+            display: flex;
+            flex-direction: column;
+            padding: 353px 214px 251px;
+        }
     }
 }

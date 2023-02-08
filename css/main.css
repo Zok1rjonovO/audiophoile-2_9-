@@ -15,6 +15,11 @@
   padding: 0 15px;
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .container {
+    max-width: 689px;
+  }
+}
 .header {
   background-color: #0E0E0E;
 }
@@ -51,6 +56,9 @@
     padding: 37px 0;
     max-width: 689px;
   }
+  .header__wrapper img {
+    margin-left: 190px;
+  }
   .header__btn {
     display: inline;
   }
@@ -59,6 +67,27 @@
   }
   .header__list li {
     display: none;
+  }
+  .header .container {
+    max-width: 689px;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .header__wrapper {
+    padding: 32px 0;
+    max-width: 375px;
+  }
+  .header__btn {
+    display: inline;
+  }
+  .header__iteams {
+    margin-left: 42px;
+  }
+  .header__list li {
+    display: none;
+  }
+  .header .container {
+    max-width: 689px;
   }
 }
 .hero__wrapper {
@@ -121,6 +150,52 @@
   height: 708px;
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .hero__wrapper {
+    background-color: none;
+  }
+  .hero__box {
+    margin: 0 auto;
+    display: flex;
+    /* width: 400px; */
+    padding: 216px 195px 167px 195px;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__btn {
+    display: inline;
+  }
+  .hero__iteams {
+    margin-left: 42px;
+  }
+  .hero__list li {
+    display: none;
+  }
+  .hero .container {
+    max-width: 689px;
+  }
+  .hero__img {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .hero__wrapper {
+    padding: 32px 0;
+    max-width: 375px;
+  }
+  .hero__btn {
+    display: inline;
+  }
+  .hero__iteams {
+    margin-left: 42px;
+  }
+  .hero__list li {
+    display: none;
+  }
+  .hero .container {
+    max-width: 689px;
+  }
+}
 .container2 {
   margin: 0 auto;
   padding: 0;
@@ -169,6 +244,18 @@
   opacity: 0.6;
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .container2 {
+    max-width: 689px;
+    margin-left: 0px;
+  }
+  .card_list {
+    gap: 10px;
+  }
+  .card_item {
+    padding: 88px 54px 57px 58px;
+  }
+}
 .card {
   margin-top: 168px;
   border-radius: 8px;
@@ -183,7 +270,7 @@
 .card__side {
   display: flex;
 }
-.card__figure img {
+.card__figure {
   width: 410.23px;
   height: 493px;
 }
@@ -221,6 +308,17 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .card__figure {
+    width: 198px;
+    height: 237px;
+  }
+  .card__body {
+    display: flex;
+    flex-direction: column;
+    padding: 353px 214px 251px;
+  }
+}
 .intro {
   margin-top: 50px;
 }
