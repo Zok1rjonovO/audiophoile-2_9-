@@ -1,0 +1,204 @@
+.cardimg{
+    margin-top: 160px;
+    &__wrapper{
+        display: flex;
+    }
+    &__img{
+        img{
+            width: 540px;
+            height: 560px;
+        }
+        img:nth-child(2){
+            display: none;
+        }
+    }
+    &__list{
+        margin-left: 125px;
+        h6{
+            margin-top: 150px;
+            font-family: 'Manrope';
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: #D87D4A;
+        }
+        h1{
+            margin-top: 16px;
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.42857px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        p{
+            margin-top: 32px;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000000;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+        button{
+            cursor: pointer;
+            margin-top: 55px;
+            border: none;
+            padding: 15px 30px;
+            background-color: $color;
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+@media screen and (max-width:768px) and (min-width:481px) {
+    .cardimg{
+        .container{
+            max-width: 689px;
+        }
+        margin-top: 160px;
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        &__img{
+            img{
+                width: 689px;
+                height: 352px;
+            }
+            img:nth-child(1){
+                display: none;
+            }
+            img:nth-child(2){
+                display: inline;
+            }
+        }
+        &__list{
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h6{
+                margin-top: 52px;
+            }
+            h1{
+                width: 563px;
+            }
+            p{
+                width: 563px;
+            }
+        }
+    }
+}
+
+.cardimg2{
+    margin-top: 160px;
+    &__wrapper{
+        display: flex;
+    }
+    &__img{
+        img{
+            width: 540px;
+            height: 560px;
+        }
+        img:nth-child(2){
+            display: none;
+        }
+    }
+    &__list{
+        margin-right: 125px;
+        h6{
+            margin-top: 150px;
+            font-family: 'Manrope';
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            color: #D87D4A;
+        }
+        h1{
+            margin-top: 16px;
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.42857px;
+            text-transform: uppercase;
+            color: #000000;
+        }
+        p{
+            margin-top: 32px;
+            font-family: 'Manrope';
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000000;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+        button{
+            cursor: pointer;
+            margin-top: 55px;
+            border: none;
+            padding: 15px 30px;
+            background-color: $color;
+            font-family: 'Manrope';
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .cardimg2{
+        .container{
+            max-width: 689px;
+        }
+        margin-top: 160px;
+        &__wrapper{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &__img{
+            img{
+                width: 689px;
+                height: 352px;
+            }
+            img:nth-child(1){
+                display: none;
+            }
+            img:nth-child(2){
+                display: inline;
+            }
+        }
+        &__list{
+            margin-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h6{
+                margin-top: 52px;
+            }
+            h1{
+                width: 563px;
+            }
+            p{
+                width: 563px;
+            }
+        }
+    }
+}

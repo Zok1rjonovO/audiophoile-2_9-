@@ -1,6 +1,6 @@
 .hero{
     &__wrapper{
-background-color: $box-bg;
+        background-color: $box-bg;
     }
     &__box{
         display: flex;
@@ -57,6 +57,20 @@ background-color: $box-bg;
             width: 700px;
             height: 708px;
         }
+    }
+    &__wrapper__2{
+        padding: 195px 0 97px;
+        background-color: $box-bg;
+    }
+    &__text2{
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 1.42857px;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
 }
 
