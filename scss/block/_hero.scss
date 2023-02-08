@@ -1,5 +1,4 @@
 .hero{
-
     &__wrapper{
         background-color: $box-bg;
     }
@@ -58,5 +57,45 @@
             width: 700px;
             height: 708px;
         }
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .hero{
+        &__wrapper{
+            background-color: none;
+            background-image: url(../Bitmap-removebg.png);
+        }
+        &__btn{
+            display: inline;
+        }
+        &__iteams{
+            margin-left: 42px;
+        }
+        &__list li{
+            display: none;
+        }
+        .container{
+            max-width: 689px;
+        }
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+    &__wrapper{
+        padding: 32px 0;
+        max-width: 375px;
+    }
+    &__btn{
+        display: inline;
+    }
+    &__iteams{
+        margin-left: 42px;
+    }
+    &__list li{
+        display: none;
+    }
+    .container{
+        max-width: 689px;
     }
 }

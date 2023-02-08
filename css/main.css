@@ -29,6 +29,13 @@
 .header__wrapper img {
   margin-left: 243px;
 }
+.header__btn {
+  display: none;
+  background-color: #F1F1F1;
+  border: none;
+  height: 13px;
+  margin-top: 20px;
+}
 .header__list {
   display: flex;
   align-items: center;
@@ -39,6 +46,21 @@
   color: #fff;
 }
 
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .header__wrapper {
+    padding: 37px 0;
+    max-width: 689px;
+  }
+  .header__btn {
+    display: inline;
+  }
+  .header__iteams {
+    margin-left: 42px;
+  }
+  .header__list li {
+    display: none;
+  }
+}
 .hero__wrapper {
   background-color: #0E0E0E;
 }
