@@ -11,10 +11,6 @@
     &__side{
         display: flex;
     }
-    &__figure{
-        width: 410.23px;
-        height: 493px;
-    }
     &__body{
         display: flex;
         flex-direction: column;
@@ -52,14 +48,24 @@
 
 @media screen and (max-width:768px) and (min-width:481px) {
     .card{
-        &__figure{
-            width: 198px;
-            height: 237px;         
+        .container{
+            max-width: 689px;
+        }
+        &__side{
+            position: relative;
+        }
+        &__figure{ 
+            img{
+                position: absolute;
+                left: 230px;
+                top: 52px;
+                width: 198px;
+                height: 237px;       
+            }     
         }
         &__body{
-            display: flex;
-            flex-direction: column;
-            padding: 353px 214px 251px;
+            text-align: center;
+            padding: 353px 170px 64px 170px;
         }
     }
 }

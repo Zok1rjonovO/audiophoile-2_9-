@@ -43,4 +43,47 @@
         width: 24px;
         height: 24px;
     }
+    .sub{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .footer{
+        margin-top: 100px;
+        .container{
+            max-width: 689px;
+        }
+        &__wrapper{
+            padding: 60px 0 46px;
+            max-width: 768px;
+        }
+        .sub{
+            display: inline;
+        }
+        &__list_sub{
+            display: flex;
+            gap: 34px;
+            margin-top: 32px;
+            a{
+                color: #FFFFFF;
+            }
+        }
+        &__iteams p
+        {
+            width: 689px;
+            margin-top: 32px;
+        }
+        &__iteams P:last-child{
+            margin-top: 80px;
+        }
+        &__box{
+            display: none;
+        }
+        &__svg{
+            position: absolute;
+            left: 550px;
+            top: 275px;
+        }
+    }
 }

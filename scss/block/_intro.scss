@@ -22,3 +22,12 @@
         color: #000;
     }
 }
+
+@media screen and (max-width:768px) and (min-width:481px) {
+    .intro{
+        margin-top: 232px;
+        &__text{
+            padding: 101px 425px 53px 62px;
+        }
+    }
+}
